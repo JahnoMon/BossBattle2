@@ -1,7 +1,7 @@
 import javax.swing.JFrame;
 
-public class GameFrame extends JFrame{
-    GameFrame(){
+public class GameWindow extends JFrame{
+    GameWindow(){
 
         this.add(new GamePanel());
         this.setTittle("Game");
